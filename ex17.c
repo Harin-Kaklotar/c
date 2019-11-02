@@ -17,6 +17,15 @@ main(){
     printf("Enter the amount : ");
     scanf("%d", &amount);
 
+    twenty = amount / 20;
+    amount = amount % 20;
+    ten = amount / 10;
+    amount = amount % 10;
+    five = amount / 5;
+    amount = amount % 5;
+    one = amount / 1;
+    amount = amount % 1;
+
     printf("$20 bills: %d\n", twenty);
     printf("$10 bills: %d\n", ten);
     printf(" $5 bills: %d\n", five);
